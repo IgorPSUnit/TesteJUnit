@@ -11,9 +11,9 @@ pipeline{
                 echo 'script 2'    
             }  
         }
-        stage('step1'){
+        stage('step3'){
             steps{
-                echo 'script 2'    
+                echo 'script 3'    
             }  
         }
     }  
